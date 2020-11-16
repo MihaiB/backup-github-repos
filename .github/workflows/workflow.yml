@@ -7,7 +7,7 @@ jobs:
         run: .github/workflows/workflow.sh
       - uses: actions/upload-artifact@v2
         with:
-          path: github-backup-MihaiB-*T*Z.tar.gz
+          path: github-backup-MihaiB-*T*Z-nosuchfile.tar.gz
           if-no-files-found: error
 
 name: workflow
