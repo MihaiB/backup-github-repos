@@ -63,6 +63,8 @@ def main():
     clone_repos(args.username, now)
     archive(args.username, now)
     shutil.rmtree(get_directory_name(args.username, now))
+    print()
+    print('Successfully backed up to:', get_archive_name(args.username, now))
 
 
 if __name__ == '__main__':

@@ -1,1 +1,4 @@
 Back up the repositories of a GitHub user.
+
+./backup-github-repos.py --help
+./backup-github-repos.py MihaiB
