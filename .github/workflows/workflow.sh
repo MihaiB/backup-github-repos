@@ -10,3 +10,5 @@ unset SCRIPT SCRIPT_DIR
 
 find -name '*.py' -exec python3 -m doctest '{}' +
 python3 -m unittest
+
+./backup-github-repos.py MihaiB
