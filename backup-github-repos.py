@@ -30,7 +30,7 @@ def parse_args():
             of a GitHub user.''',
             epilog='''This program will create a file named similar to ''' +
             get_archive_name('UserName', get_now()) +
-            ''' in your current directory.''')
+            ''' in the current directory.''')
     p.add_argument('username', help='''The GitHub user
             whose repositories to back up.''')
     return p.parse_args()
