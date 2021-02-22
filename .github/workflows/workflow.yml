@@ -8,11 +8,6 @@ jobs:
       - uses: actions/checkout@v2
       - name: step
         run: .github/workflows/workflow.sh
-      - uses: actions/upload-artifact@v2
-        with:
-          if-no-files-found: error
-          name: github-backup-MihaiB
-          path: github-backup-MihaiB-*T*Z.tar.gz
 
 name: workflow
 
